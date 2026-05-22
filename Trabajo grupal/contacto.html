@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Transportes de Tigre</title>
+  <link rel="stylesheet" href="Estilo/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Transportes de Tigre</a>
+      <nav class="site-nav">
+        <a href="transporte1.html">Transporte 1</a>
+        <a href="transporte2.html">Transporte 2</a>
+        <a href="transporte3.html">Transporte 3</a>
+        <a href="transporte4.html">Transporte 4</a>
+        <a href="transporte5.html">Transporte 5</a>
+        <a href="contacto.html" class="button button-outline">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-section">
+      <div class="container page-header">
+        <p class="eyebrow">Contacto</p>
+        <h1>Escribinos y coordinamos tu viaje</h1>
+        <p>Queremos ayudarte a encontrar la mejor opción de transporte para tu día a día en Tigre.</p>
+      </div>
+
+      <div class="container split-layout">
+        <div>
+          <form class="contact-form" action="#" method="post">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+
+            <label for="servicio">Servicio</label>
+            <select id="servicio" name="servicio">
+              <option>Transporte 1</option>
+              <option>Transporte 2</option>
+              <option>Transporte 3</option>
+              <option>Transporte 4</option>
+              <option>Consulta general</option>
+            </select>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Contanos tu ruta, horario o necesidad"></textarea>
+
+            <button type="submit" class="button">Enviar consulta</button>
+          </form>
+        </div>
+        <div>
+          <img src="Img/contacto.svg" alt="Contacto Transportes Tigre" class="responsive-image">
+          <div class="info-box">
+            <h2>Información</h2>
+            <p>Horario de atención: 08:00 - 20:00</p>
+            <p>Teléfono: +54 11 1234 5678</p>
+            <p>Email: info@transportestigre.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Gracias por elegir Transportes de Tigre.</p>
+      <a href="index.html">Volver al inicio</a>
+    </div>
+  </footer>
+</body>
+</html>
